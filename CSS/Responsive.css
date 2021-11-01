@@ -1,0 +1,76 @@
+@media all and (min-width: 1000px) and (max-width: 1300px) {
+    .contenidoPrincipal {
+        width: 1000px;
+    }
+
+    .tituloArticulo {
+        margin-top: -20px;
+        font-size: 19px;
+    }
+
+    .textoArticulo {
+        margin-top: -16px;
+    }
+
+    .contenidoArticuloPrimario {
+        font-size: 15.5px;
+    }
+
+    .contenidoSecundario {
+        width: 1000px;
+    }
+
+    .segundaPrecentacion {
+        width: 35%;
+    }
+
+    .contenidoArticuloSecundario {
+        font-size: 14.5px;
+    }
+
+    .video {
+        margin-right: 147px;
+    }
+}
+
+@media all and (min-width: 640px) and (max-width: 1000px) {
+    .contenidoPrincipal {
+        width: 640px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .imagen1 {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 530px;
+    }
+
+    .primeraPrecentacion {
+        width: 100%;
+    }
+
+    .tituloArticulo {
+        margin-top: -10px;
+        font-size: 27px;
+    }
+
+    .contenidoArticuloPrimario {
+        font-size: 15px;
+    }
+
+    .contenidoSecundario {
+        width: 640px;
+    }
+
+    .segundaPrecentacion {
+        width: 100%;
+        height: 339px;
+        margin-bottom: 40px;
+    }
+
+    .contenidoArticuloSecundario {
+        font-size: 17px;
+    }
+}

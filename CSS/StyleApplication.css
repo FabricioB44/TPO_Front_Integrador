@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.formulario {
+    margin: 0 ;
+    padding: 0 .8em;
+    width: 510px;
+    height: auto;
+    padding-top: 60px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.identidad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.nombre {
+    width: 30%;
+}
+
+.apellido {
+    width: 30%;
+}
+
+.genero {
+    width: 30%;
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
+.ubicacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.email, .direccion1 {
+    width: 40%;
+}
+
+.telefono, .direccion2 {
+    width: 40%;
+}
+
+.localidad, .otrosDatos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.nombre, .ciudad, .nacimiento {
+    width: 30%;
+}
+
+.apellido, .estado, .profecion {
+    width: 30%;
+}
+
+.genero, .codigoPostal, .sangre {
+    width: 30%;
+}
+
+.condiciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 510px;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.acepto {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #27A7D8;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.btn:hover {
+    background-color: #FF9A00;
+}

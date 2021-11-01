@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body.preload *{
+    animation-duration: 0s !important;
+    -webkit-animation-duration: 0s !important;
+    transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;}
+
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+.fixed-bg {
+    background-image: url("../Images/Slides/Chickens.jpg");
+    height: 400px;
+    margin-top: 21px;
+    min-height: 580px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.contenidoPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    padding-top: 20px;
+}
+
+.imagen1 {
+    background-image: url(../Images/Posters/WhyNot.jpg);
+    width: 31%;
+    height: 530px;
+    margin-right: auto;
+}
+
+.primeraPrecentacion {
+    width: 65%;
+    height: 530px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.tituloArticulo {
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+}
+
+.textoArticulo {
+    margin-top: -14px;
+}
+
+.contenidoArticuloPrimario {
+    font-size: 17px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+.contenidoSecundario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.segundaPrecentacion {
+    width: 46%;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 23px;
+    box-sizing: border-box;
+}
+
+.contenidoArticuloSecundario {
+    font-size: 17px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+.copyright {
+    font-size: 5px;
+    text-align: right;
+    margin-top: -18px;
+}
+
+.video {
+    width: 49.3%;
+}

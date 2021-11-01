@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.centradoFotos {
+    margin: 0 auto;
+    padding: 0 .8em;
+}
+
+@media screen and (min-width: 52em) {
+    .centradoFotos {
+        margin: 0 auto;
+        padding: 0 .8em;
+    }
+}
+
+.tarjeta {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tarjeta:hover {
+    box-shadow: 3px 3px 8px rgb(196, 192, 192);
+}
+
+.tarjeta:hover .tarjetaContent {
+    box-shadow: 3px 3px 8px rgb(196, 192, 192);
+    color: rgb(209, 209, 209);
+}
+
+.tarjetaContent {
+    padding: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+
+.tarjetaContent h2 {
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+}
+
+.tarjetaContent p {
+    font-size: 95%;
+}
+
+.thumbnail {
+    margin: 0;
+}
+
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+/*flex*/
+
+.tarjeta {
+    background-color: rgb(255, 154, 0);
+    margin-bottom: 2em;
+    width: 33%;
+}
+
+.cards {
+    padding-top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

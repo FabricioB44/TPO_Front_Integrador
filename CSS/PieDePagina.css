@@ -1,0 +1,107 @@
+.pieDePaginaFondo {
+    background-color: rgb(39, 167, 216);
+    height: auto;
+}
+
+.pieDePagina {
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 1300px;
+    padding: 30px;
+    padding-right: 100px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #FF9A00;
+  }
+
+.pieDePaginaTitulo {
+    font-size: 27px;
+    margin-bottom: -15px;
+}
+
+.textoArticulo {
+    margin-top: -14px;
+}
+
+.redes {
+    text-decoration: none;
+    width: 30%;
+    padding-left: 9%;
+}
+
+.redes a{
+    text-decoration: none;
+    color: white;
+}
+
+.darken:hover {
+    filter: brightness(0.7);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.recruitment {
+    width: 30%;
+}
+
+.advertisement {
+    width: 30%;
+}
+
+@media all and (min-width: 1000px) and (max-width: 1300px) {
+    .pieDePagina {
+        width: 1000px;
+        padding: 30px
+    }
+
+    .pieDePaginaTitulo {
+        font-size: 20px;
+    }
+
+    .redes {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+
+    .recruitment {
+        font-size: 16px;
+    }
+
+    .advertisement {
+        font-size: 17px;
+    }
+}
+
+@media all and (min-width: 640px) and (max-width: 1000px) {
+    .pieDePagina {
+        width: 640px;
+        padding: 30px
+    }
+
+    .pieDePaginaTitulo {
+        font-size: 20px;
+    }
+
+    .redes {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+
+    .recruitment {
+        font-size: 14px;
+    }
+    
+    .advertisement {
+        font-size: 17px;
+    }
+}

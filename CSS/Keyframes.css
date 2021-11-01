@@ -1,0 +1,41 @@
+/* Fading animation */
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.slideLeft {
+    animation-name: slideLeft;
+    animation-duration: 0.5s;
+}
+
+/*.fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 3s;
+}
+
+@keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}*/
+
+/*.slide {
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    animation-name: slide;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
