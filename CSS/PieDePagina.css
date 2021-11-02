@@ -105,3 +105,28 @@ a {
         font-size: 17px;
     }
 }
+
+@media all and (max-width: 639px) {
+    .pieDePagina {
+        margin-top: 120px;
+        width: 500px;
+        padding: 30px
+    }
+
+    .pieDePaginaTitulo {
+        font-size: 20px;
+    }
+
+    .redes {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+
+    .recruitment {
+        font-size: 14px;
+    }
+    
+    .advertisement {
+        font-size: 17px;
+    }
+}

@@ -83,7 +83,7 @@ body {
 }
 
 .segundaPrecentacion {
-    width: 46%;
+    width: 46.8%;
     height: 360px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 23px;
@@ -102,6 +102,10 @@ body {
     margin-top: -18px;
 }
 
-.video {
+.h_iframe {
     width: 49.3%;
+}
+
+.ratio {
+    display: none;
 }
